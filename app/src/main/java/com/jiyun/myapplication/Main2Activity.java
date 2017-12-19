@@ -30,6 +30,7 @@ public class Main2Activity extends AppCompatActivity implements ViewInf{
     public void showData(String string) {
         Gson gson = new Gson();
         Beans beans = gson.fromJson(string, Beans.class);
+        //beans.
 
     }
 }
